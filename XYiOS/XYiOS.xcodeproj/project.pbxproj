@@ -112,6 +112,7 @@
 		02E559BB1EFBC18100CDC0DF /* simple-math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E559A11EFBC18100CDC0DF /* simple-math.swift */; };
 		02E559BC1EFBC18100CDC0DF /* vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E559A21EFBC18100CDC0DF /* vector.swift */; };
 		02E559BE1EFBC3CB00CDC0DF /* XYModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E559BD1EFBC3CB00CDC0DF /* XYModel.swift */; };
+		02E559C01EFC080600CDC0DF /* XYCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E559BF1EFC080600CDC0DF /* XYCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -245,6 +246,7 @@
 		02E559A11EFBC18100CDC0DF /* simple-math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "simple-math.swift"; sourceTree = "<group>"; };
 		02E559A21EFBC18100CDC0DF /* vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vector.swift; sourceTree = "<group>"; };
 		02E559BD1EFBC3CB00CDC0DF /* XYModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYModel.swift; sourceTree = "<group>"; };
+		02E559BF1EFC080600CDC0DF /* XYCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,6 +306,7 @@
 				02E5595C1EFBC16900CDC0DF /* LaunchScreen.storyboard */,
 				02E5595F1EFBC16900CDC0DF /* Info.plist */,
 				02E559BD1EFBC3CB00CDC0DF /* XYModel.swift */,
+				02E559BF1EFC080600CDC0DF /* XYCell.swift */,
 				02E558C21EFBC16900CDC0DF /* C4 */,
 				02E559391EFBC16900CDC0DF /* Media */,
 			);
@@ -709,6 +712,7 @@
 				02E558E21EFBC16900CDC0DF /* Circle.swift in Sources */,
 				02E559B81EFBC18100CDC0DF /* helper-functions.swift in Sources */,
 				02E5594E1EFBC16900CDC0DF /* LinearGradient.swift in Sources */,
+				02E559C01EFC080600CDC0DF /* XYCell.swift in Sources */,
 				02E558EA1EFBC16900CDC0DF /* Font.swift in Sources */,
 				02E559A41EFBC18100CDC0DF /* io.swift in Sources */,
 				02E559B51EFBC18100CDC0DF /* speed.swift in Sources */,

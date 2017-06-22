@@ -22,6 +22,7 @@ class XYModel {
     var B: Float
     var J: Float
     var pause: Bool
+    var cells: [XYCell]
     
     init(cellsize: Double, gridnumber: Int, canvas: View) {
         self.ready = false
@@ -38,14 +39,15 @@ class XYModel {
         self.B = 0.0
         self.J = 1.0
         self.pause = false
-        
+        self.cells = [XYCell]()
     }
     
     func randomInit(){
-        
+        let cs = Int(self.cellsize)
         for i in 0..<self.phases.columns {
             for j in 0..<self.phases.rows {
                 self.phases[i,j] = random01()*2*pi
+                self.cells.append(XYCell(Point(i*cs, j*cs), self.phases[i,j], self.cellsize))
             }
         }
 
@@ -53,18 +55,12 @@ class XYModel {
     
     
     func draw(){
-        var drawi = [[Int]]()
-        var drawj = [[Int]]()
-        
-        for _ in 0..<360 {
-            drawi.append([Int]())
-            drawj.append([Int]())
-        }
+
         
         var newphases = self.phases.copy()
         
-        for i in 0..<self.ni-1 {
-            for j in 0..<self.nj-1 {
+        for i in 0..<self.ni {
+            for j in 0..<self.nj {
                 var f = 0.0
                 f += (i > 0 ? sin(self.phases[i,j] - self.phases[i - 1,j]) : 0);
                 f += (i < self.ni - 1 ? sin(self.phases[i,j] - self.phases[i + 1,j]) : 0);
@@ -80,10 +76,7 @@ class XYModel {
                 if(c < 0){
                     c += 360
                 }
-//                print("c \(c)")
-//                print(" i \(i)  j  \(j) ")
-                drawi[c].append(i)
-                drawj[c].append(j)
+
                 
             }
         }
@@ -92,22 +85,7 @@ class XYModel {
         self.phases = newphases
         newphases = tempphases
         
-        
-        //Actual drawing
-        for c in 0..<360 {
-            for n in 0..<drawi[c].count {
-                let rad = deg2rad(Double(c))
-                let x = self.cellsize * sin(rad)
-                let y = self.cellsize * cos(rad)
-                let hue = map(Double(c), min: 0.0, max: 360.0, toMin: 0.0, toMax: 1.0)
-                let col = Color(hue: hue, saturation: 1.0, brightness: 1.0, alpha: 1.0)
-                
-                let a = Point(drawi[c][n]*Int(self.cellsize), drawi[c][n]*Int(self.cellsize))
-                let b = Point(drawi[c][n]*Int(self.cellsize) + x, drawi[c][n]*Int(self.cellsize + y))
-                let line = Line((a,b))
-                line.strokeColor = col
-                
-                self.canvas.add(line)
+
                 
             }
         }

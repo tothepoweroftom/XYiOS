@@ -15,7 +15,7 @@ class WorkSpace: CanvasController {
     var timer: Timer!
     
     override func setup() {
-        xy = XYModel(cellsize: 20.0, gridnumber: 32, canvas: canvas)
+        xy = XYModel(cellsize: 2.0, gridnumber: 32, canvas: canvas)
         xy.randomInit()
         xy.draw()
         canvas.backgroundColor = black;
@@ -26,9 +26,6 @@ class WorkSpace: CanvasController {
     }
     
     func draw(){
-        let rect = Rectangle(frame: Rect(view.frame))
-        rect.fillColor = black
-        canvas.add(rect)
         xy.draw()
     }
     
