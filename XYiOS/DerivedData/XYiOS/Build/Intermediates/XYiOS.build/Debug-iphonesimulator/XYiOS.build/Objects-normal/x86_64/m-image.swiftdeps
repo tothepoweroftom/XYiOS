@@ -1,0 +1,164 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "rgb2hsv_pixel"
+- "rgb2hsv"
+- "rgb2_hsv_vplane"
+- "imshow"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "*"
+- !private "+"
+- !private "-"
+- !private "..<"
+- !private "/"
+- !private "=="
+- "AssignmentPrecedence"
+- "Double"
+- !private "StringLiteralType"
+- !private "array"
+- !private "assert"
+- "imshow"
+- "matrix"
+- !private "max"
+- !private "min"
+- "rgb2_hsv_vplane"
+- "rgb2hsv"
+- "rgb2hsv_pixel"
+- !private "zeros_like"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "truncatingRemainder"]
+- !private ["Ps19BinaryFloatingPoint", "truncatingRemainder"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "truncatingRemainder"]
+- !private ["Ps10Comparable", "truncatingRemainder"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "truncatingRemainder"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "truncatingRemainder"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "truncatingRemainder"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "truncatingRemainder"]
+- !private ["Sd", "truncatingRemainder"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "truncatingRemainder"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "truncatingRemainder"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "truncatingRemainder"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "truncatingRemainder"]
+- !private ["P5XYiOS21FloatingPointMathType", "truncatingRemainder"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "truncatingRemainder"]
+- !private ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "truncatingRemainder"]
+- !private ["Ps12SignedNumber", "truncatingRemainder"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "truncatingRemainder"]
+- !private ["Ps15_CVarArgAligned", "truncatingRemainder"]
+- !private ["Ps22_CVarArgPassedAsDouble", "truncatingRemainder"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "truncatingRemainder"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "truncatingRemainder"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "truncatingRemainder"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "truncatingRemainder"]
+- !private ["Ps11_Strideable", "truncatingRemainder"]
+- !private ["V5XYiOS6matrix", "shape"]
+- !private ["V5XYiOS6matrix", "subscript"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "P5XYiOS21FloatingPointMathType"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+- !private "V5XYiOS6matrix"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/swix-Bridging-Header.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/opencv.hpp"
+interface-hash: "38c95a40ab609c8602f116ca6daf2940"

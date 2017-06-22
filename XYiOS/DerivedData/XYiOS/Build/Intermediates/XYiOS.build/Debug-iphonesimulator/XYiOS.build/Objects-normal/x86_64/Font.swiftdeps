@@ -1,0 +1,398 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Font"
+provides-nominal:
+- "C5XYiOS4Font"
+provides-member:
+- ["C5XYiOS4Font", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "CFString"
+- !private "CGFloat"
+- "CGFont"
+- "CTFont"
+- !private "CTFontCreateWithNameAndOptions"
+- "CastingPrecedence"
+- "Double"
+- "Font"
+- !private "NSString"
+- "String"
+- "UIFont"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGFont"]
+- !private ["Ps9AnyObject", "CTFontCreateWithNameAndOptions"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "Font"]
+- !private ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "ascender"]
+- !private ["Ps9AnyObject", "boldSystemFont"]
+- !private ["Ps9AnyObject", "buttonFontSize"]
+- !private ["Ps9AnyObject", "capHeight"]
+- !private ["Ps9AnyObject", "descender"]
+- !private ["Ps9AnyObject", "familyName"]
+- !private ["Ps9AnyObject", "familyNames"]
+- !private ["Ps9AnyObject", "fontName"]
+- !private ["Ps9AnyObject", "fontNames"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "internalFont"]
+- !private ["Ps9AnyObject", "italicSystemFont"]
+- !private ["Ps9AnyObject", "labelFontSize"]
+- !private ["Ps9AnyObject", "lineHeight"]
+- !private ["Ps9AnyObject", "pointSize"]
+- !private ["Ps9AnyObject", "smallSystemFontSize"]
+- !private ["Ps9AnyObject", "systemFont"]
+- !private ["Ps9AnyObject", "systemFontSize"]
+- !private ["Ps9AnyObject", "withSize"]
+- !private ["Ps9AnyObject", "xHeight"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["CSo6CGFont", "init"]
+- !private ["Ps7CVarArg", "ascender"]
+- !private ["Ps7CVarArg", "boldSystemFont"]
+- !private ["Ps7CVarArg", "buttonFontSize"]
+- !private ["Ps7CVarArg", "capHeight"]
+- !private ["Ps7CVarArg", "descender"]
+- !private ["Ps7CVarArg", "familyName"]
+- !private ["Ps7CVarArg", "familyNames"]
+- !private ["Ps7CVarArg", "fontName"]
+- !private ["Ps7CVarArg", "fontNames"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "italicSystemFont"]
+- !private ["Ps7CVarArg", "labelFontSize"]
+- !private ["Ps7CVarArg", "lineHeight"]
+- !private ["Ps7CVarArg", "pointSize"]
+- !private ["Ps7CVarArg", "smallSystemFontSize"]
+- !private ["Ps7CVarArg", "systemFont"]
+- !private ["Ps7CVarArg", "systemFontSize"]
+- !private ["Ps7CVarArg", "withSize"]
+- !private ["Ps7CVarArg", "xHeight"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "ascender"]
+- !private ["Ps28CustomDebugStringConvertible", "boldSystemFont"]
+- !private ["Ps28CustomDebugStringConvertible", "buttonFontSize"]
+- !private ["Ps28CustomDebugStringConvertible", "capHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "descender"]
+- !private ["Ps28CustomDebugStringConvertible", "familyName"]
+- !private ["Ps28CustomDebugStringConvertible", "familyNames"]
+- !private ["Ps28CustomDebugStringConvertible", "fontName"]
+- !private ["Ps28CustomDebugStringConvertible", "fontNames"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "italicSystemFont"]
+- !private ["Ps28CustomDebugStringConvertible", "labelFontSize"]
+- !private ["Ps28CustomDebugStringConvertible", "lineHeight"]
+- !private ["Ps28CustomDebugStringConvertible", "pointSize"]
+- !private ["Ps28CustomDebugStringConvertible", "smallSystemFontSize"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFont"]
+- !private ["Ps28CustomDebugStringConvertible", "systemFontSize"]
+- !private ["Ps28CustomDebugStringConvertible", "withSize"]
+- !private ["Ps28CustomDebugStringConvertible", "xHeight"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "ascender"]
+- !private ["Ps23CustomStringConvertible", "boldSystemFont"]
+- !private ["Ps23CustomStringConvertible", "buttonFontSize"]
+- !private ["Ps23CustomStringConvertible", "capHeight"]
+- !private ["Ps23CustomStringConvertible", "descender"]
+- !private ["Ps23CustomStringConvertible", "familyName"]
+- !private ["Ps23CustomStringConvertible", "familyNames"]
+- !private ["Ps23CustomStringConvertible", "fontName"]
+- !private ["Ps23CustomStringConvertible", "fontNames"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "italicSystemFont"]
+- !private ["Ps23CustomStringConvertible", "labelFontSize"]
+- !private ["Ps23CustomStringConvertible", "lineHeight"]
+- !private ["Ps23CustomStringConvertible", "pointSize"]
+- !private ["Ps23CustomStringConvertible", "smallSystemFontSize"]
+- !private ["Ps23CustomStringConvertible", "systemFont"]
+- !private ["Ps23CustomStringConvertible", "systemFontSize"]
+- !private ["Ps23CustomStringConvertible", "withSize"]
+- !private ["Ps23CustomStringConvertible", "xHeight"]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "ascender"]
+- !private ["Ps9Equatable", "boldSystemFont"]
+- !private ["Ps9Equatable", "buttonFontSize"]
+- !private ["Ps9Equatable", "capHeight"]
+- !private ["Ps9Equatable", "descender"]
+- !private ["Ps9Equatable", "familyName"]
+- !private ["Ps9Equatable", "familyNames"]
+- !private ["Ps9Equatable", "fontName"]
+- !private ["Ps9Equatable", "fontNames"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "italicSystemFont"]
+- !private ["Ps9Equatable", "labelFontSize"]
+- !private ["Ps9Equatable", "lineHeight"]
+- !private ["Ps9Equatable", "pointSize"]
+- !private ["Ps9Equatable", "smallSystemFontSize"]
+- !private ["Ps9Equatable", "systemFont"]
+- !private ["Ps9Equatable", "systemFontSize"]
+- !private ["Ps9Equatable", "withSize"]
+- !private ["Ps9Equatable", "xHeight"]
+- !private ["P5XYiOS11EventSource", "ascender"]
+- !private ["P5XYiOS11EventSource", "boldSystemFont"]
+- !private ["P5XYiOS11EventSource", "buttonFontSize"]
+- !private ["P5XYiOS11EventSource", "capHeight"]
+- !private ["P5XYiOS11EventSource", "descender"]
+- !private ["P5XYiOS11EventSource", "familyName"]
+- !private ["P5XYiOS11EventSource", "familyNames"]
+- !private ["P5XYiOS11EventSource", "fontName"]
+- !private ["P5XYiOS11EventSource", "fontNames"]
+- !private ["P5XYiOS11EventSource", "init"]
+- !private ["P5XYiOS11EventSource", "italicSystemFont"]
+- !private ["P5XYiOS11EventSource", "labelFontSize"]
+- !private ["P5XYiOS11EventSource", "lineHeight"]
+- !private ["P5XYiOS11EventSource", "pointSize"]
+- !private ["P5XYiOS11EventSource", "smallSystemFontSize"]
+- !private ["P5XYiOS11EventSource", "systemFont"]
+- !private ["P5XYiOS11EventSource", "systemFontSize"]
+- !private ["P5XYiOS11EventSource", "withSize"]
+- !private ["P5XYiOS11EventSource", "xHeight"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["P5XYiOS21FloatingPointMathType", "init"]
+- !private ["C5XYiOS4Font", "CFString"]
+- !private ["C5XYiOS4Font", "CGFloat"]
+- ["C5XYiOS4Font", "CGFont"]
+- ["C5XYiOS4Font", "CTFont"]
+- !private ["C5XYiOS4Font", "CTFontCreateWithNameAndOptions"]
+- ["C5XYiOS4Font", "Double"]
+- ["C5XYiOS4Font", "Font"]
+- !private ["C5XYiOS4Font", "NSString"]
+- ["C5XYiOS4Font", "String"]
+- ["C5XYiOS4Font", "UIFont"]
+- ["C5XYiOS4Font", "ascender"]
+- ["C5XYiOS4Font", "boldSystemFont"]
+- ["C5XYiOS4Font", "buttonFontSize"]
+- ["C5XYiOS4Font", "capHeight"]
+- ["C5XYiOS4Font", "cgFont"]
+- ["C5XYiOS4Font", "ctFont"]
+- ["C5XYiOS4Font", "deinit"]
+- ["C5XYiOS4Font", "descender"]
+- ["C5XYiOS4Font", "familyName"]
+- ["C5XYiOS4Font", "familyNames"]
+- ["C5XYiOS4Font", "font"]
+- ["C5XYiOS4Font", "fontName"]
+- ["C5XYiOS4Font", "fontNames"]
+- ["C5XYiOS4Font", "init"]
+- ["C5XYiOS4Font", "internalFont"]
+- ["C5XYiOS4Font", "italicSystemFont"]
+- ["C5XYiOS4Font", "labelFontSize"]
+- ["C5XYiOS4Font", "lineHeight"]
+- ["C5XYiOS4Font", "pointSize"]
+- ["C5XYiOS4Font", "smallSystemFontSize"]
+- ["C5XYiOS4Font", "systemFont"]
+- ["C5XYiOS4Font", "systemFontSize"]
+- ["C5XYiOS4Font", "uiifont"]
+- ["C5XYiOS4Font", "xHeight"]
+- !private ["Ps8Hashable", "ascender"]
+- !private ["Ps8Hashable", "boldSystemFont"]
+- !private ["Ps8Hashable", "buttonFontSize"]
+- !private ["Ps8Hashable", "capHeight"]
+- !private ["Ps8Hashable", "descender"]
+- !private ["Ps8Hashable", "familyName"]
+- !private ["Ps8Hashable", "familyNames"]
+- !private ["Ps8Hashable", "fontName"]
+- !private ["Ps8Hashable", "fontNames"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "italicSystemFont"]
+- !private ["Ps8Hashable", "labelFontSize"]
+- !private ["Ps8Hashable", "lineHeight"]
+- !private ["Ps8Hashable", "pointSize"]
+- !private ["Ps8Hashable", "smallSystemFontSize"]
+- !private ["Ps8Hashable", "systemFont"]
+- !private ["Ps8Hashable", "systemFontSize"]
+- !private ["Ps8Hashable", "withSize"]
+- !private ["Ps8Hashable", "xHeight"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["PSo9NSCopying", "ascender"]
+- !private ["PSo9NSCopying", "boldSystemFont"]
+- !private ["PSo9NSCopying", "buttonFontSize"]
+- !private ["PSo9NSCopying", "capHeight"]
+- !private ["PSo9NSCopying", "descender"]
+- !private ["PSo9NSCopying", "familyName"]
+- !private ["PSo9NSCopying", "familyNames"]
+- !private ["PSo9NSCopying", "fontName"]
+- !private ["PSo9NSCopying", "fontNames"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "italicSystemFont"]
+- !private ["PSo9NSCopying", "labelFontSize"]
+- !private ["PSo9NSCopying", "lineHeight"]
+- !private ["PSo9NSCopying", "pointSize"]
+- !private ["PSo9NSCopying", "smallSystemFontSize"]
+- !private ["PSo9NSCopying", "systemFont"]
+- !private ["PSo9NSCopying", "systemFontSize"]
+- !private ["PSo9NSCopying", "withSize"]
+- !private ["PSo9NSCopying", "xHeight"]
+- !private ["CSo8NSObject", "ascender"]
+- !private ["CSo8NSObject", "boldSystemFont"]
+- !private ["CSo8NSObject", "buttonFontSize"]
+- !private ["CSo8NSObject", "capHeight"]
+- !private ["CSo8NSObject", "descender"]
+- !private ["CSo8NSObject", "familyName"]
+- !private ["CSo8NSObject", "familyNames"]
+- !private ["CSo8NSObject", "fontName"]
+- !private ["CSo8NSObject", "fontNames"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "italicSystemFont"]
+- !private ["CSo8NSObject", "labelFontSize"]
+- !private ["CSo8NSObject", "lineHeight"]
+- !private ["CSo8NSObject", "pointSize"]
+- !private ["CSo8NSObject", "smallSystemFontSize"]
+- !private ["CSo8NSObject", "systemFont"]
+- !private ["CSo8NSObject", "systemFontSize"]
+- !private ["CSo8NSObject", "withSize"]
+- !private ["CSo8NSObject", "xHeight"]
+- !private ["PSo16NSObjectProtocol", "ascender"]
+- !private ["PSo16NSObjectProtocol", "boldSystemFont"]
+- !private ["PSo16NSObjectProtocol", "buttonFontSize"]
+- !private ["PSo16NSObjectProtocol", "capHeight"]
+- !private ["PSo16NSObjectProtocol", "descender"]
+- !private ["PSo16NSObjectProtocol", "familyName"]
+- !private ["PSo16NSObjectProtocol", "familyNames"]
+- !private ["PSo16NSObjectProtocol", "fontName"]
+- !private ["PSo16NSObjectProtocol", "fontNames"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "italicSystemFont"]
+- !private ["PSo16NSObjectProtocol", "labelFontSize"]
+- !private ["PSo16NSObjectProtocol", "lineHeight"]
+- !private ["PSo16NSObjectProtocol", "pointSize"]
+- !private ["PSo16NSObjectProtocol", "smallSystemFontSize"]
+- !private ["PSo16NSObjectProtocol", "systemFont"]
+- !private ["PSo16NSObjectProtocol", "systemFontSize"]
+- !private ["PSo16NSObjectProtocol", "withSize"]
+- !private ["PSo16NSObjectProtocol", "xHeight"]
+- !private ["P5XYiOS23ScalarFloatingPointType", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["CSo6UIFont", "ascender"]
+- !private ["CSo6UIFont", "boldSystemFont"]
+- !private ["CSo6UIFont", "buttonFontSize"]
+- !private ["CSo6UIFont", "capHeight"]
+- !private ["CSo6UIFont", "descender"]
+- !private ["CSo6UIFont", "familyName"]
+- !private ["CSo6UIFont", "familyNames"]
+- !private ["CSo6UIFont", "fontName"]
+- !private ["CSo6UIFont", "fontNames"]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo6UIFont", "italicSystemFont"]
+- !private ["CSo6UIFont", "labelFontSize"]
+- !private ["CSo6UIFont", "lineHeight"]
+- !private ["CSo6UIFont", "pointSize"]
+- !private ["CSo6UIFont", "smallSystemFontSize"]
+- !private ["CSo6UIFont", "systemFont"]
+- !private ["CSo6UIFont", "systemFontSize"]
+- !private ["CSo6UIFont", "withSize"]
+- !private ["CSo6UIFont", "xHeight"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps9_Hashable", "ascender"]
+- !private ["Ps9_Hashable", "boldSystemFont"]
+- !private ["Ps9_Hashable", "buttonFontSize"]
+- !private ["Ps9_Hashable", "capHeight"]
+- !private ["Ps9_Hashable", "descender"]
+- !private ["Ps9_Hashable", "familyName"]
+- !private ["Ps9_Hashable", "familyNames"]
+- !private ["Ps9_Hashable", "fontName"]
+- !private ["Ps9_Hashable", "fontNames"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "italicSystemFont"]
+- !private ["Ps9_Hashable", "labelFontSize"]
+- !private ["Ps9_Hashable", "lineHeight"]
+- !private ["Ps9_Hashable", "pointSize"]
+- !private ["Ps9_Hashable", "smallSystemFontSize"]
+- !private ["Ps9_Hashable", "systemFont"]
+- !private ["Ps9_Hashable", "systemFontSize"]
+- !private ["Ps9_Hashable", "withSize"]
+- !private ["Ps9_Hashable", "xHeight"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Ps19BinaryFloatingPoint"
+- !private "V12CoreGraphics7CGFloat"
+- !private "CSo6CGFont"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "P5XYiOS11EventSource"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps13FloatingPoint"
+- !private "P5XYiOS21FloatingPointMathType"
+- "C5XYiOS4Font"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "P5XYiOS23ScalarFloatingPointType"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "CSo6UIFont"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/swix-Bridging-Header.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/opencv.hpp"
+interface-hash: "d8647466871dab81ec84bdfb1f01d75f"

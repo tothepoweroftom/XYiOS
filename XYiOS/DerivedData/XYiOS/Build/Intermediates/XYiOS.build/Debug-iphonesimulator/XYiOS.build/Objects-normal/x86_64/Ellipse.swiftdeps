@@ -1,0 +1,247 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Ellipse"
+provides-nominal:
+- "C5XYiOS7Ellipse"
+provides-member:
+- ["C5XYiOS7Ellipse", ""]
+provides-dynamic-lookup:
+- "updatePath"
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "CGRect"
+- "Ellipse"
+- !private "Path"
+- "Rect"
+- "Shape"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "CGRect"]
+- !private ["Ps9AnyObject", "Path"]
+- !private ["Ps9AnyObject", "addEllipse"]
+- !private ["Ps9AnyObject", "bounds"]
+- !private ["Ps9AnyObject", "frame"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "updatePath"]
+- !private ["Ps9AnyObject", "view"]
+- ["Ps9AnyObject", ""]
+- !private ["PSo15CALayerDelegate", "frame"]
+- !private ["VSC6CGRect", "init"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "Path"]
+- !private ["Ps7CVarArg", "bounds"]
+- !private ["Ps7CVarArg", "frame"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "path"]
+- !private ["Ps7CVarArg", "updatePath"]
+- !private ["Ps7CVarArg", "view"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "Path"]
+- !private ["Ps28CustomDebugStringConvertible", "bounds"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "updatePath"]
+- !private ["Ps28CustomDebugStringConvertible", "view"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "Path"]
+- !private ["Ps23CustomStringConvertible", "bounds"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "updatePath"]
+- !private ["Ps23CustomStringConvertible", "view"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["C5XYiOS7Ellipse", "CGRect"]
+- !private ["C5XYiOS7Ellipse", "Path"]
+- ["C5XYiOS7Ellipse", "Rect"]
+- !private ["C5XYiOS7Ellipse", "bounds"]
+- ["C5XYiOS7Ellipse", "deinit"]
+- ["C5XYiOS7Ellipse", "init"]
+- !private ["C5XYiOS7Ellipse", "path"]
+- ["C5XYiOS7Ellipse", "updatePath"]
+- !private ["C5XYiOS7Ellipse", "view"]
+- !private ["Ps9Equatable", "CGRect"]
+- !private ["Ps9Equatable", "Path"]
+- !private ["Ps9Equatable", "addEllipse"]
+- !private ["Ps9Equatable", "bounds"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "updatePath"]
+- !private ["Ps9Equatable", "view"]
+- ["Ps9Equatable", ""]
+- !private ["P5XYiOS11EventSource", "CGRect"]
+- !private ["P5XYiOS11EventSource", "Path"]
+- !private ["P5XYiOS11EventSource", "bounds"]
+- !private ["P5XYiOS11EventSource", "frame"]
+- !private ["P5XYiOS11EventSource", "init"]
+- !private ["P5XYiOS11EventSource", "path"]
+- !private ["P5XYiOS11EventSource", "updatePath"]
+- !private ["P5XYiOS11EventSource", "view"]
+- ["P5XYiOS11EventSource", ""]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "CGRect"]
+- !private ["Ps8Hashable", "Path"]
+- !private ["Ps8Hashable", "bounds"]
+- !private ["Ps8Hashable", "frame"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "updatePath"]
+- !private ["Ps8Hashable", "view"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "frame"]
+- !private ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "Path"]
+- ["CSo8NSObject", "Rect"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "frame"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "updatePath"]
+- !private ["CSo8NSObject", "view"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- !private ["PSo16NSObjectProtocol", "Path"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "updatePath"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["C5XYiOS4Path", "addEllipse"]
+- !private ["C5XYiOS4Path", "init"]
+- !private ["C5XYiOS5Shape", "CGRect"]
+- !private ["C5XYiOS5Shape", "Path"]
+- ["C5XYiOS5Shape", "Rect"]
+- !private ["C5XYiOS5Shape", "bounds"]
+- ["C5XYiOS5Shape", "init"]
+- !private ["C5XYiOS5Shape", "path"]
+- ["C5XYiOS5Shape", "updatePath"]
+- !private ["C5XYiOS5Shape", "view"]
+- ["C5XYiOS5Shape", ""]
+- !private ["Vs12StaticString", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- !private ["PSo12UIAppearance", "frame"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- !private ["PSo11UIFocusItem", "frame"]
+- !private ["CSo11UIResponder", "frame"]
+- !private ["PSo30UIResponderStandardEditActions", "frame"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- !private ["CSo6UIView", "frame"]
+- !private ["C5XYiOS4View", "CGRect"]
+- !private ["C5XYiOS4View", "Path"]
+- ["C5XYiOS4View", "Rect"]
+- !private ["C5XYiOS4View", "bounds"]
+- !private ["C5XYiOS4View", "path"]
+- ["C5XYiOS4View", "updatePath"]
+- !private ["C5XYiOS4View", "view"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "frame"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "CGRect"]
+- !private ["Ps9_Hashable", "Path"]
+- !private ["Ps9_Hashable", "bounds"]
+- !private ["Ps9_Hashable", "frame"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "updatePath"]
+- !private ["Ps9_Hashable", "view"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "VSC6CGRect"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "C5XYiOS7Ellipse"
+- "Ps9Equatable"
+- "P5XYiOS11EventSource"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "C5XYiOS4Path"
+- "C5XYiOS5Shape"
+- !private "Vs12StaticString"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "C5XYiOS4View"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/swix-Bridging-Header.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/opencv.hpp"
+interface-hash: "830347b81972869bb978a92d41b21a6e"

@@ -1,0 +1,449 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RegularPolygon"
+provides-nominal:
+- "C5XYiOS14RegularPolygon"
+provides-member:
+- ["C5XYiOS14RegularPolygon", ""]
+provides-dynamic-lookup:
+- "phase"
+- "sides"
+- "updatePath"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "..<"
+- !private "/"
+- !private ">"
+- "AssignmentPrecedence"
+- !private "C4Blue"
+- "Double"
+- "Int"
+- !private "M_PI"
+- "Point"
+- "Polygon"
+- "RegularPolygon"
+- !private "StringLiteralType"
+- !private "assert"
+- !private "cos"
+- !private "sin"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "C4Blue"]
+- !private ["Ps9AnyObject", "Double"]
+- !private ["Ps9AnyObject", "M_PI"]
+- !private ["Ps9AnyObject", "Point"]
+- !private ["Ps9AnyObject", "RegularPolygon"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "center"]
+- !private ["Ps9AnyObject", "close"]
+- !private ["Ps9AnyObject", "cos"]
+- !private ["Ps9AnyObject", "fillColor"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "path"]
+- !private ["Ps9AnyObject", "phase"]
+- !private ["Ps9AnyObject", "sides"]
+- !private ["Ps9AnyObject", "sin"]
+- !private ["Ps9AnyObject", "updatePath"]
+- !private ["Ps9AnyObject", "width"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "append"]
+- !private ["Sa", "init"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- !private ["Ps7CVarArg", "C4Blue"]
+- !private ["Ps7CVarArg", "Double"]
+- !private ["Ps7CVarArg", "M_PI"]
+- !private ["Ps7CVarArg", "Point"]
+- !private ["Ps7CVarArg", "RegularPolygon"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "assert"]
+- !private ["Ps7CVarArg", "center"]
+- !private ["Ps7CVarArg", "close"]
+- !private ["Ps7CVarArg", "cos"]
+- !private ["Ps7CVarArg", "fillColor"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "path"]
+- !private ["Ps7CVarArg", "phase"]
+- !private ["Ps7CVarArg", "sides"]
+- !private ["Ps7CVarArg", "sin"]
+- !private ["Ps7CVarArg", "updatePath"]
+- !private ["Ps7CVarArg", "width"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "C4Blue"]
+- !private ["Ps28CustomDebugStringConvertible", "Double"]
+- !private ["Ps28CustomDebugStringConvertible", "M_PI"]
+- !private ["Ps28CustomDebugStringConvertible", "Point"]
+- !private ["Ps28CustomDebugStringConvertible", "RegularPolygon"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- !private ["Ps28CustomDebugStringConvertible", "center"]
+- !private ["Ps28CustomDebugStringConvertible", "close"]
+- !private ["Ps28CustomDebugStringConvertible", "cos"]
+- !private ["Ps28CustomDebugStringConvertible", "fillColor"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "path"]
+- !private ["Ps28CustomDebugStringConvertible", "phase"]
+- !private ["Ps28CustomDebugStringConvertible", "sides"]
+- !private ["Ps28CustomDebugStringConvertible", "sin"]
+- !private ["Ps28CustomDebugStringConvertible", "updatePath"]
+- !private ["Ps28CustomDebugStringConvertible", "width"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "C4Blue"]
+- !private ["Ps23CustomStringConvertible", "Double"]
+- !private ["Ps23CustomStringConvertible", "M_PI"]
+- !private ["Ps23CustomStringConvertible", "Point"]
+- !private ["Ps23CustomStringConvertible", "RegularPolygon"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- !private ["Ps23CustomStringConvertible", "center"]
+- !private ["Ps23CustomStringConvertible", "close"]
+- !private ["Ps23CustomStringConvertible", "cos"]
+- !private ["Ps23CustomStringConvertible", "fillColor"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "path"]
+- !private ["Ps23CustomStringConvertible", "phase"]
+- !private ["Ps23CustomStringConvertible", "sides"]
+- !private ["Ps23CustomStringConvertible", "sin"]
+- !private ["Ps23CustomStringConvertible", "updatePath"]
+- !private ["Ps23CustomStringConvertible", "width"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "init"]
+- !private ["Ps9Equatable", "C4Blue"]
+- !private ["Ps9Equatable", "Double"]
+- !private ["Ps9Equatable", "M_PI"]
+- !private ["Ps9Equatable", "Point"]
+- !private ["Ps9Equatable", "RegularPolygon"]
+- !private ["Ps9Equatable", "assert"]
+- !private ["Ps9Equatable", "center"]
+- !private ["Ps9Equatable", "close"]
+- !private ["Ps9Equatable", "cos"]
+- !private ["Ps9Equatable", "fillColor"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "path"]
+- !private ["Ps9Equatable", "phase"]
+- !private ["Ps9Equatable", "sides"]
+- !private ["Ps9Equatable", "sin"]
+- !private ["Ps9Equatable", "updatePath"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["P5XYiOS11EventSource", "C4Blue"]
+- !private ["P5XYiOS11EventSource", "Double"]
+- !private ["P5XYiOS11EventSource", "M_PI"]
+- !private ["P5XYiOS11EventSource", "Point"]
+- !private ["P5XYiOS11EventSource", "RegularPolygon"]
+- !private ["P5XYiOS11EventSource", "assert"]
+- !private ["P5XYiOS11EventSource", "center"]
+- !private ["P5XYiOS11EventSource", "close"]
+- !private ["P5XYiOS11EventSource", "cos"]
+- !private ["P5XYiOS11EventSource", "fillColor"]
+- !private ["P5XYiOS11EventSource", "init"]
+- !private ["P5XYiOS11EventSource", "path"]
+- !private ["P5XYiOS11EventSource", "phase"]
+- !private ["P5XYiOS11EventSource", "sides"]
+- !private ["P5XYiOS11EventSource", "sin"]
+- !private ["P5XYiOS11EventSource", "updatePath"]
+- !private ["P5XYiOS11EventSource", "width"]
+- ["P5XYiOS11EventSource", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "init"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- !private ["P5XYiOS21FloatingPointMathType", "init"]
+- !private ["Ps8Hashable", "C4Blue"]
+- !private ["Ps8Hashable", "Double"]
+- !private ["Ps8Hashable", "M_PI"]
+- !private ["Ps8Hashable", "Point"]
+- !private ["Ps8Hashable", "RegularPolygon"]
+- !private ["Ps8Hashable", "assert"]
+- !private ["Ps8Hashable", "center"]
+- !private ["Ps8Hashable", "close"]
+- !private ["Ps8Hashable", "cos"]
+- !private ["Ps8Hashable", "fillColor"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "path"]
+- !private ["Ps8Hashable", "phase"]
+- !private ["Ps8Hashable", "sides"]
+- !private ["Ps8Hashable", "sin"]
+- !private ["Ps8Hashable", "updatePath"]
+- !private ["Ps8Hashable", "width"]
+- ["Ps8Hashable", ""]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["CSo8NSObject", "C4Blue"]
+- ["CSo8NSObject", "Double"]
+- ["CSo8NSObject", "Int"]
+- !private ["CSo8NSObject", "M_PI"]
+- ["CSo8NSObject", "Point"]
+- !private ["CSo8NSObject", "RegularPolygon"]
+- !private ["CSo8NSObject", "assert"]
+- !private ["CSo8NSObject", "center"]
+- !private ["CSo8NSObject", "close"]
+- !private ["CSo8NSObject", "cos"]
+- !private ["CSo8NSObject", "fillColor"]
+- !private ["CSo8NSObject", "path"]
+- ["CSo8NSObject", "phase"]
+- ["CSo8NSObject", "sides"]
+- !private ["CSo8NSObject", "sin"]
+- ["CSo8NSObject", "updatePath"]
+- !private ["CSo8NSObject", "width"]
+- !private ["PSo16NSObjectProtocol", "C4Blue"]
+- !private ["PSo16NSObjectProtocol", "Double"]
+- !private ["PSo16NSObjectProtocol", "M_PI"]
+- !private ["PSo16NSObjectProtocol", "Point"]
+- !private ["PSo16NSObjectProtocol", "RegularPolygon"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- !private ["PSo16NSObjectProtocol", "close"]
+- !private ["PSo16NSObjectProtocol", "cos"]
+- !private ["PSo16NSObjectProtocol", "fillColor"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "path"]
+- !private ["PSo16NSObjectProtocol", "phase"]
+- !private ["PSo16NSObjectProtocol", "sides"]
+- !private ["PSo16NSObjectProtocol", "sin"]
+- !private ["PSo16NSObjectProtocol", "updatePath"]
+- !private ["PSo16NSObjectProtocol", "width"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["V5XYiOS5Point", "init"]
+- !private ["C5XYiOS7Polygon", "C4Blue"]
+- ["C5XYiOS7Polygon", "Double"]
+- ["C5XYiOS7Polygon", "Int"]
+- !private ["C5XYiOS7Polygon", "M_PI"]
+- ["C5XYiOS7Polygon", "Point"]
+- !private ["C5XYiOS7Polygon", "RegularPolygon"]
+- !private ["C5XYiOS7Polygon", "assert"]
+- !private ["C5XYiOS7Polygon", "center"]
+- !private ["C5XYiOS7Polygon", "close"]
+- !private ["C5XYiOS7Polygon", "cos"]
+- !private ["C5XYiOS7Polygon", "fillColor"]
+- ["C5XYiOS7Polygon", "init"]
+- !private ["C5XYiOS7Polygon", "path"]
+- ["C5XYiOS7Polygon", "phase"]
+- ["C5XYiOS7Polygon", "sides"]
+- !private ["C5XYiOS7Polygon", "sin"]
+- ["C5XYiOS7Polygon", "updatePath"]
+- !private ["C5XYiOS7Polygon", "width"]
+- ["C5XYiOS7Polygon", ""]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["C5XYiOS14RegularPolygon", "C4Blue"]
+- ["C5XYiOS14RegularPolygon", "Double"]
+- ["C5XYiOS14RegularPolygon", "Int"]
+- !private ["C5XYiOS14RegularPolygon", "M_PI"]
+- ["C5XYiOS14RegularPolygon", "Point"]
+- !private ["C5XYiOS14RegularPolygon", "RegularPolygon"]
+- !private ["C5XYiOS14RegularPolygon", "assert"]
+- !private ["C5XYiOS14RegularPolygon", "center"]
+- !private ["C5XYiOS14RegularPolygon", "close"]
+- !private ["C5XYiOS14RegularPolygon", "cos"]
+- ["C5XYiOS14RegularPolygon", "deinit"]
+- !private ["C5XYiOS14RegularPolygon", "fillColor"]
+- ["C5XYiOS14RegularPolygon", "init"]
+- !private ["C5XYiOS14RegularPolygon", "path"]
+- ["C5XYiOS14RegularPolygon", "phase"]
+- ["C5XYiOS14RegularPolygon", "sides"]
+- !private ["C5XYiOS14RegularPolygon", "sin"]
+- ["C5XYiOS14RegularPolygon", "updatePath"]
+- !private ["C5XYiOS14RegularPolygon", "width"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "init"]
+- !private ["C5XYiOS5Shape", "C4Blue"]
+- ["C5XYiOS5Shape", "Double"]
+- ["C5XYiOS5Shape", "Int"]
+- !private ["C5XYiOS5Shape", "M_PI"]
+- ["C5XYiOS5Shape", "Point"]
+- !private ["C5XYiOS5Shape", "RegularPolygon"]
+- !private ["C5XYiOS5Shape", "assert"]
+- !private ["C5XYiOS5Shape", "center"]
+- !private ["C5XYiOS5Shape", "close"]
+- !private ["C5XYiOS5Shape", "cos"]
+- !private ["C5XYiOS5Shape", "fillColor"]
+- !private ["C5XYiOS5Shape", "path"]
+- ["C5XYiOS5Shape", "phase"]
+- ["C5XYiOS5Shape", "sides"]
+- !private ["C5XYiOS5Shape", "sin"]
+- ["C5XYiOS5Shape", "updatePath"]
+- !private ["C5XYiOS5Shape", "width"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- !private ["C5XYiOS4View", "C4Blue"]
+- ["C5XYiOS4View", "Double"]
+- ["C5XYiOS4View", "Int"]
+- !private ["C5XYiOS4View", "M_PI"]
+- ["C5XYiOS4View", "Point"]
+- !private ["C5XYiOS4View", "RegularPolygon"]
+- !private ["C5XYiOS4View", "assert"]
+- !private ["C5XYiOS4View", "center"]
+- !private ["C5XYiOS4View", "close"]
+- !private ["C5XYiOS4View", "cos"]
+- !private ["C5XYiOS4View", "fillColor"]
+- !private ["C5XYiOS4View", "path"]
+- ["C5XYiOS4View", "phase"]
+- ["C5XYiOS4View", "sides"]
+- !private ["C5XYiOS4View", "sin"]
+- ["C5XYiOS4View", "updatePath"]
+- !private ["C5XYiOS4View", "width"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps9_Hashable", "C4Blue"]
+- !private ["Ps9_Hashable", "Double"]
+- !private ["Ps9_Hashable", "M_PI"]
+- !private ["Ps9_Hashable", "Point"]
+- !private ["Ps9_Hashable", "RegularPolygon"]
+- !private ["Ps9_Hashable", "assert"]
+- !private ["Ps9_Hashable", "center"]
+- !private ["Ps9_Hashable", "close"]
+- !private ["Ps9_Hashable", "cos"]
+- !private ["Ps9_Hashable", "fillColor"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "path"]
+- !private ["Ps9_Hashable", "phase"]
+- !private ["Ps9_Hashable", "sides"]
+- !private ["Ps9_Hashable", "sin"]
+- !private ["Ps9_Hashable", "updatePath"]
+- !private ["Ps9_Hashable", "width"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps19BinaryFloatingPoint"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "P5XYiOS11EventSource"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- !private "P5XYiOS21FloatingPointMathType"
+- "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps17MutableCollection"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "V5XYiOS5Point"
+- "C5XYiOS7Polygon"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- "C5XYiOS14RegularPolygon"
+- !private "Ps8Sequence"
+- "C5XYiOS5Shape"
+- !private "Ps12SignedNumber"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- "C5XYiOS4View"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AudioToolbox.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/OpenCV.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/types_c.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/swix-Bridging-Header.h"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/contrib/contrib.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/imgproc/imgproc.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/features2d/features2d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/calib3d/calib3d.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/core.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/highgui/highgui.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/ml/ml.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/flann/miniflann.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/version.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/photo/photo.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/operations.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/core/mat.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/objdetect/objdetect.hpp"
+- "/Users/tom.power/Developer/MusicTechProjects/XYMusic/XYiOS/XYiOS/XYiOS/swix/objc/opencv2.framework/Headers/opencv.hpp"
+interface-hash: "ae82b574c6b5c9e0cc517bff6eff900a"
